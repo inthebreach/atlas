@@ -130,7 +130,7 @@ export default function Footer() {
 <div class="before-footer-cta"><div class="wrap"><section id="block-3" class="widget widget_block"><div class="widget-wrap"><div id="member-wrap" class="wp-block-columns">
 <div id="a-bg"></div>
 <div id="member-agrilife" class="wp-block-column">
-<p class="member-text">A member of<br><a href="https://agrilife.tamu.edu/"><span class="member-brand">Texas A&amp;M AgriLife</span></a></p>
+<p class="member-text">A member of<br /><a href="https://agrilife.tamu.edu/"><span class="member-brand">Texas A&amp;M AgriLife</span></a></p>
 </div>
 <div id="member-list" class="wp-block-column">
 <p><a href="https://agrilifeextension.tamu.edu/">Texas A&amp;M AgriLife Extension Service</a> | <a href="https://agriliferesearch.tamu.edu/">Texas A&amp;M AgriLife Research</a> | <a href="https://tfsweb.tamu.edu/">Texas A&amp;M Forest Service</a> | <a href="https://tvmdl.tamu.edu/">Texas A&amp;M AgriLife Veterinary Medical Diagnostic Lab</a> | <a href="https://aglifesciences.tamu.edu/">College of Agriculture &amp; Life Sciences</a></p>
