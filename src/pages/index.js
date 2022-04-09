@@ -49,11 +49,10 @@ export default function Page() {
         <div className="container">
           <section className="hero text-center">
             <Heading className={styles.heading} level="h1">
-              Welcome to your Blueprint
+              Welcome to the future AgriFlex5 WordPress headless template. 
             </Heading>
             <p className={styles.description}>
-              Achieve unprecedented performance with modern frameworks and the
-              world&apos;s #1 open source CMS in one powerful headless platform.{' '}
+              Achieve unprecedented performance with modern frameworks.{' '}
             </p>
             <div className={styles.actions}>
               <Button styleType="secondary" href="/contact-us">
@@ -73,7 +72,7 @@ export default function Page() {
               )}
             >
               <span>
-                Learn about Core Web Vitals and how Atlas can help you reach
+                Learn about how AgriLife can help you reach
                 your most demanding speed and user experience requirements.
               </span>
             </CTA>
@@ -103,7 +102,7 @@ export default function Page() {
               Testimonials
             </Heading>
             <p className={styles.description}>
-              Here are just a few of the nice things our customers have to say.
+              Here are just a few of the nice things random strangers on campus have to say.
             </p>
             <Testimonials testimonials={testimonials?.nodes} />
           </section>
