@@ -30,7 +30,7 @@ export default function Page() {
   });
   const testimonials = useQuery().testimonials();
   const mainBanner = {
-    sourceUrl: '/static/banner.jpeg',
+    sourceUrl: '/static/banner.png',
     mediaDetails: { width: 1200, height: 600 },
     altText: 'Portfolio Banner',
   };
