@@ -127,6 +127,7 @@ export default function Footer() {
           className={styles.nav}
           menuLocation={MENUS.FOOTER_LOCATION}
         />
+        <section>
 <div>
 <p class="member-text">A member of<br /><a href="https://agrilife.tamu.edu/"><span class="member-brand">Texas A&amp;M AgriLife</span></a></p>
 </div>
