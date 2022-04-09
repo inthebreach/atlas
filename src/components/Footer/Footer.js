@@ -20,7 +20,7 @@ import styles from './Footer.module.scss';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      < className="container">
+      <div className="container">
         {appConfig?.socialLinks && (
           <div className={styles['social-links']}>
             <ul aria-label="Social media">
@@ -127,12 +127,14 @@ export default function Footer() {
           className={styles.nav}
           menuLocation={MENUS.FOOTER_LOCATION}
         />
-        
-  
-  <div className={styles.copyright}>
-    &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
-    <a href="https://wpengine.com/atlas">Atlas</a>
-  </div>
+<div>
+				<h1>Homepage </h1>
+				<Link to='/about'>Go to Aboutpage</Link>
+		</div>
+        <div className={styles.copyright}>
+          &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
+          <a href="https://wpengine.com/atlas">Atlas</a>
+        </div>
       </div>
     </footer>
   );
