@@ -129,7 +129,7 @@ export default function Footer() {
         />
 <div>
 				<h1>Homepage </h1>
-				<Link to='/about'>Go to Aboutpage</Link>
+				<a href='https://agrilife.org'>Go to Aboutpage</a>
 		</div>
         <div className={styles.copyright}>
           &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
