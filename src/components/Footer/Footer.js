@@ -136,7 +136,7 @@ export default function Footer() {
   <div className={styles.copyright}>
     &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
     <a href="https://wpengine.com/atlas">Atlas</a>
-  </div></></>
+  </div>
       </div>
     </footer>
   );
