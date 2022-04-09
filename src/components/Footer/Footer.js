@@ -128,10 +128,6 @@ export default function Footer() {
           menuLocation={MENUS.FOOTER_LOCATION}
         />
         
-   <div>
-				<h1>Aboutpage</h1>
-				<Link to='/'>Go to Aboutpage</Link>
-		</div>
   
   <div className={styles.copyright}>
     &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
