@@ -21,6 +21,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className="container">
+        <div className="row">
         {appConfig?.socialLinks && (
           <div className={styles['social-links']}>
             <ul aria-label="Social media">
@@ -130,7 +131,7 @@ export default function Footer() {
         />
       </div>
       
-<div>
+<div className='row'>
 <ul>
   <li>
     <a href="https://agrilife.tamu.edu/required-links/compact/">Compact with Texans</a>
@@ -168,7 +169,9 @@ export default function Footer() {
                       <li>
                         <a href="https://agrilife.tamu.edu/required-links/orpi/">Open Records/Public Information</a>
                         </li>
-                        </ul>   
+                        </ul>
+                        </div>
+       
 
 
         <div className={styles.copyright}>
