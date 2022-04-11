@@ -126,15 +126,20 @@ export default function Footer() {
         <NavigationMenu
           className={styles.nav}
           menuLocation={MENUS.FOOTER_LOCATION}
+          menuItems={MENUS.FOOTER_ITEMS}
         />
-<div>
-<ul><li><a href="https://agrilife.tamu.edu/required-links/compact/">Compact with Texans</a></li><li><a href="https://agrilife.tamu.edu/required-links/privacy/">Privacy and Security</a></li><li><a href="http://itaccessibility.tamu.edu/" target="_blank" rel="noreferrer>Accessibility Policy</a></li><li><a href="http://publishingext.dir.texas.gov/portal/internal/resources/DocumentLibrary/State%20Website%20Linking%20and%20Privacy%20Policy.pdf" target="_blank" rel="noreferrer>State Link Policy</a></li><li><a href="http://www.tsl.state.tx.us/trail" target="_blank" rel="noreferrer>Statewide Search</a></li><li><a href="http://veterans.tamu.edu/" target="_blank">Veterans Benefits</a></li><li><a href="https://fch.tamu.edu/programs/military-programs/" target="_blank" rel="noreferrer>Military Families</a></li><li><a href="https://secure.ethicspoint.com/domain/en/report_custom.asp?clientid=19681" target="_blank" rel="noreferrer>Risk, Fraud &amp; Misconduct Hotline</a></li><li><a href="https://gov.texas.gov/organization/hsgd" target="_blank" rel="noreferrer>Texas Homeland Security</a></li><li><a href="http://veterans.portal.texas.gov/">Texas Veterans Portal</a></li><li><a href="http://agrilifeas.tamu.edu/hr/diversity/equal-opportunity-educational-programs/" target="_blank" rel="noreferrer>Equal Opportunity</a></li><li><a href="https://agrilife.tamu.edu/required-links/orpi/">Open Records/Public Information</a></li></ul>
-		</div>
+      </div>
+      
+      
+
+<ul><li><a href="https://agrilife.tamu.edu/required-links/compact/">Compact with Texans</a></li><li><a href="https://agrilife.tamu.edu/required-links/privacy/">Privacy and Security</a></li><li><a href="http://itaccessibility.tamu.edu/" target="_blank" rel="noreferrer>Accessibility Policy</a></li><li><a href="http://publishingext.dir.texas.gov/portal/internal/resources/DocumentLibrary/State%20Website%20Linking%20and%20Privacy%20Policy.pdf" target="_blank" rel="noreferrer>State Link Policy</a></li><li><a href="http://www.tsl.state.tx.us/trail" target="_blank" rel="noreferrer>Statewide Search</a></li><li><a href="http://veterans.tamu.edu/" target="_blank">Veterans Benefits</a></li><li><a href="https://fch.tamu.edu/programs/military-programs/" target="_blank" rel="noreferrer>Military Families</a></li><li><a href="https://secure.ethicspoint.com/domain/en/report_custom.asp?clientid=19681" target="_blank" rel="noreferrer>Risk, Fraud &amp; Misconduct Hotline</a></li><li><a href="https://gov.texas.gov/organization/hsgd" target="_blank" rel="noreferrer>Texas Homeland Security</a></li><li><a href="http://veterans.portal.texas.gov/">Texas Veterans Portal</a></li><li><a href="http://agrilifeas.tamu.edu/hr/diversity/equal-opportunity-educational-programs/" target="_blank" rel="noreferrer>Equal Opportunity</a></li><li><a href="https://agrilife.tamu.edu/required-links/orpi/">Open Records/Public Information</a></li></ul>   
+
+
         <div className={styles.copyright}>
           &copy; {new Date().getFullYear()} Blueprint Media &#183; Powered By{' '}
           <a href="https://wpengine.com/atlas">Atlas</a>
         </div>
       </div>
-    </footer>
-  );
-}
+    </footer> 
+  );  
+} 
