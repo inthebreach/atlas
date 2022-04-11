@@ -148,7 +148,7 @@ export default function Footer() {
           <a href="http://www.tsl.state.tx.us/trail" target="_blank" rel="noreferrer">Statewide Search</a>
           </li>
           <li>
-            <a href="http://veterans.tamu.edu/" target="_blank">Veterans Benefits</a>
+            <a href="http://veterans.tamu.edu/" target="_blank" rel="noreferrer">Veterans Benefits</a>
             </li>
             <li>
               <a href="https://fch.tamu.edu/programs/military-programs/" target="_blank" rel="noreferrer">Military Families</a>
