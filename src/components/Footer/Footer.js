@@ -21,7 +21,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className="container">
-        <div className="row">
+        <div className={styles.row}>
         {appConfig?.socialLinks && (
           <div className={styles['social-links']}>
             <ul aria-label="Social media">
@@ -131,7 +131,7 @@ export default function Footer() {
         />
       </div>
       
-<div className='row'>
+<div className={styles.row}>
 <ul>
   <li>
     <a href="https://agrilife.tamu.edu/required-links/compact/">Compact with Texans</a>
